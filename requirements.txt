@@ -1,0 +1,7 @@
+python-dotenv
+pypdfium2
+langchain-text-splitters
+chromadb
+openai
+colorama
+pytest

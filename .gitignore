@@ -1,0 +1,25 @@
+# Development files and folders
+dev/
+
+# Environment and secrets
+venv/
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Auto-generated vector store (rebuilt from manuals on first run)
+vector_store/
+
+# Query logs (auto-generated at runtime)
+logs/
+
+# PDF manuals (large binary files)
+data/
+
+# IDE
+.idea/
+
+# macOS
+.DS_Store
