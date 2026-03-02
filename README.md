@@ -212,3 +212,4 @@ This is a single-machine PoC. Moving to production would require:
 - **Smarter chunking** - Section-aware chunking that splits at heading boundaries rather than fixed character counts. Keeps related content together and avoids splitting tables.
 - **PDF quality validation** - Automated check of extraction output before ingestion to flag encoding issues or empty pages before they silently degrade retrieval quality.
 - **Authentication** - The current CLI has no user authentication or session isolation.
+- **Dynamic manual filter** - `/filter` currently uses hardcoded aliases (`maytag`, `midea`). With more manuals this does not scale. The filter should be driven dynamically from the vector store contents, letting mechanics select by filename or index rather than a predefined alias.
